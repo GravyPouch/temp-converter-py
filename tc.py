@@ -12,7 +12,7 @@ credit = "Made by gravypouch, lastest update:"
 def ctf():
     ctfi = '0'
     cfta = '0'
-    ctfi = int(input('Enter Celsius to Convert: '))
+    ctfi = float(input('Enter Celsius to Convert: '))
     ctfa = (ctfi * 1.8) + 32
     a = math.ceil(ctfa)
     print("Here is that in Fahrenheit:")
@@ -25,7 +25,7 @@ def ctf():
 def ftc():
     ftci = '0'
     ftca = '0'
-    ftci = int(input('Enter Fahrenheit to Convert: '))
+    ftci = float(input('Enter Fahrenheit to Convert: '))
     ftca = (ftci - 32) / 1.8
     a = math.ceil(ftca)
     print("Here is that in Celsius:")
@@ -52,6 +52,8 @@ def menu():
             ftc()
         else:
             print("I don't understand your choice.")
+            print("Returning you to menu......")
+            time.sleep(5)
             print("")
             menu()
 
