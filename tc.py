@@ -4,8 +4,8 @@
 import math
 import time
 
-ver = "ver, 1.1"
-ts = "1526610482"
+ver = "ver, 1.2"
+ts = "1526651421"
 
 credit = "Made by gravypouch, lastest update:"
 
@@ -42,7 +42,7 @@ def menu():
         print("The Temperature Converter:")
         print(credit,ts,ver)
         print("")
-        print("# WARNING: This program does not support decimals at this moment in time. Also it rounds up. Keep that in mind")
+        print("# WARNING: This program rounds up. Keep that in mind")
         print("Choose 1 for Celsius to Fahrenheit")
         print("Choose 2 for Fahrenheit to Celsius")
         choice = input ("Please make a choice: ")
